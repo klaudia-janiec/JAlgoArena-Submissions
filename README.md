@@ -1,4 +1,4 @@
-# JAlgoArena Submissions [![Build Status](https://travis-ci.org/spolnik/JAlgoArena-Submissions.svg?branch=master)](https://travis-ci.org/spolnik/JAlgoArena-Submissions) [![codecov](https://codecov.io/gh/spolnik/JAlgoArena-Submissions/branch/master/graph/badge.svg)](https://codecov.io/gh/spolnik/JAlgoArena-Submissions) [![GitHub release](https://img.shields.io/github/release/spolnik/jalgoarena-submissions.svg)]()
+# JAlgoArena Submissions [![Build Status](https://travis-ci.org/klaudia-janiec/JAlgoArena-Submissions.svg?branch=master)](https://travis-ci.org/klaudia-janiec/JAlgoArena-Submissions) [![codecov](https://codecov.io/gh/klaudia-janiec/JAlgoArena-Submissions/branch/master/graph/badge.svg)](https://codecov.io/gh/klaudia-janiec/JAlgoArena-Submissions) [![GitHub release](https://img.shields.io/github/release/klaudia-janiec/jalgoarena-submissions.svg)]()
 
 JAlgoArena Submissions is service dedicated for collecting users submissions and exposing that data together with calculating ranking for all submissions as well as for problem based rankings. Querying submissions and submitting it has to be secure operation - methods require passing token which is then checked with Auth service.
 
@@ -32,11 +32,11 @@ Demo: https://jalgoarena-ui.herokuapp.com/
 
 ## Components
 
-- [JAlgoArena](https://github.com/spolnik/JAlgoArena)
-- [JAlgoArena UI](https://github.com/spolnik/JAlgoArena-UI)
-- [JAlgoArena Auth Server](https://github.com/spolnik/JAlgoArena-Auth)
-- [JAlgoArena Eureka Server](https://github.com/spolnik/JAlgoArena-Eureka)
-- [JAlgoArena API Gateway](https://github.com/spolnik/JAlgoArena-API)
+- [JAlgoArena](https://github.com/klaudia-janiec/JAlgoArena)
+- [JAlgoArena UI](https://github.com/klaudia-janiec/JAlgoArena-UI)
+- [JAlgoArena Auth Server](https://github.com/klaudia-janiec/JAlgoArena-Auth)
+- [JAlgoArena Eureka Server](https://github.com/klaudia-janiec/JAlgoArena-Eureka)
+- [JAlgoArena API Gateway](https://github.com/klaudia-janiec/JAlgoArena-API)
 
 ## Continuous Delivery
 
@@ -69,6 +69,6 @@ There are two ways to run it - from sources or from binaries.
 - there is second way to run app with gradle. Instead of running above, you can just run `./gradlew clean bootRun`
 
 ## Notes
-- [Travis Builds](https://travis-ci.org/spolnik)
+- [Travis Builds](https://travis-ci.org/klaudia-janiec)
 
-![Component Diagram](https://github.com/spolnik/JAlgoArena/raw/master/design/JAlgoArena_Logo.png)
+![Component Diagram](https://github.com/klaudia-janiec/JAlgoArena/raw/master/design/JAlgoArena_Logo.png)
