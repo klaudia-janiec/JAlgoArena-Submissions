@@ -8,6 +8,7 @@ buildscript {
     dependencies {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:$spring_version"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'se.transmode.gradle:gradle-docker:1.2'
     }
 }
 
@@ -52,6 +53,8 @@ dependencies {
 }
 
 apply plugin: 'jacoco'
+apply plugin: 'application'
+apply plugin: 'docker'
 
 jacocoTestReport {
     reports {
@@ -81,4 +84,8 @@ task releaseZip(type: Zip, dependsOn: 'bootRepackage') {
     from 'run.sh'
     archiveName "JAlgoArena-Submissions-${version}.zip"
     destinationDir(file('build/libs'))
+}
+
+docker {
+    baseImage "java:8"
 }
